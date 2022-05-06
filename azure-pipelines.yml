@@ -16,7 +16,8 @@ variables:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/java
 
 trigger:
-- master
+  tags:
+    - v*
 
 pool:
   vmImage: ubuntu-latest
