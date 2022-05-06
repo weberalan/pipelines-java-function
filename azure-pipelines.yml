@@ -8,7 +8,7 @@ variables:
   appName: first-pipelines-java-function
   # the name of your functionApp is what you provided as
   # stagingDirectory in pom.xml
-  functionAppName: 'target/azure-functions/first-pipelines-java-function'
+  functionAppName: 'first-pipelines-java-function'
 
 # Maven
 # Build your Java project and run tests with Apache Maven.
