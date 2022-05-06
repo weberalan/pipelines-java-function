@@ -17,7 +17,7 @@ variables:
 
 trigger:
   tags:
-    - v*
+  - v*
 
 pool:
   vmImage: ubuntu-latest
